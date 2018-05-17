@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--<link rel="icon" type="image/gif" href="favicon.gif">-->
+        <link type="text/css" rel="stylesheet" href="dark.css" id="style"/>
+        <title>おかえり</title>
+    </head>
+    <body>
+        <h1>おかえり</h1>
+        <div id="container">
+            % for sect in sections:
+            <div class="square">
+                <span>
+                    <h7>${sect}</h7>
+                <span>
+                <div class="content">
+                    % for obj in zerudas:
+                    % if obj.section == sect:
+                   <a href="${obj.url}">${obj.name}</a>
+                    % endif
+                    % endfor
+                </div>
+            </div>
+            % endfor
+        </div>
+        <div class="search">
+            <form target="_blank" method="get" action="https://searx.me/">
+                <input class="search-box" name="q" placeholder="search..." autofocus="autofocus" type="text">
+            </form>
+        </div>
+    </body>
+</html>
