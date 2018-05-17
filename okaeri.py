@@ -2,8 +2,8 @@
 from mako.template import Template
 
 class Link():
-    def __init__(self, section, name, url):
-        self.section, self.name, self.url = section, name, url
+    def __init__(self, section, label, url):
+        self.section, self.label, self.url = section, label, url
 
 def parse_file(filename="links.oka"):
     sections = {}
