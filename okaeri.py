@@ -33,7 +33,7 @@ def create_Links(sections):
 sections = parse_file()
 zerudas = create_Links(sections)
 
-tmpl = Template(filename='template.html', input_encoding='utf-8', output_encoding='utf-8')
+tmpl = Template(filename='./html/template.html', input_encoding='utf-8', output_encoding='utf-8')
 
 with open("./html/homepage.html", 'wb') as f_out:
     f_out.write(bytes(tmpl.render(zerudas=zerudas, sections=sections)))

@@ -5,10 +5,10 @@ files:
 
 * `okaeri.py`
 * `links.oka`
-* `template.html`
 * Inside `html`:
     - `dark.css`
     - `homepage.html`
+    - `template.html`
     
 ### Dependencies
 * [Mako](http://www.makotemplates.org/)
