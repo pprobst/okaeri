@@ -1,0 +1,91 @@
+a {
+	text-decoration: none;
+	color: #9AB7D3;
+	font-family: Overpass, Open Sans;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 7px;
+	display: block;
+	line-height: 25px;
+	transition-duration: 0.1s;
+}
+
+a:hover {
+	color: #AAD1B8;
+	background-color: #FFDCDD;
+}
+
+body {
+	background-color: #F7F3EE;
+	text-align: center;
+}
+
+h1 {
+	font-family: jackeyfont;
+	font-size: 100px;
+	color: #EDA6A8;
+	text-align: center;
+}
+
+h7 {
+	font-size: 20px;
+	color: #EDA6A8;
+	font-family: Overpass, Open Sans;
+	border-bottom: 1px dotted #8A8A8A;
+}
+
+div {
+	display: inline-block;
+	margin-top: auto;
+	width: 110px;
+	height: 25px;
+	text-align: center;
+}
+
+#container {
+	width: 100%;
+	display: table;
+}
+
+.square {
+	display: inline-block;
+	width: 125px;
+	height: 45px;
+	margin: 5px;
+	vertical-align: top;
+}
+
+.content {
+	margin: auto;
+	line-height: 25px;
+	padding: auto;
+}
+
+span {
+	width: inherit;
+	height: inherit;
+	line-height: 50px;
+}
+
+.search {
+	border-bottom: 1px solid #BDD0C4;
+	padding: 5px;
+	width: 30%;
+	display: block;
+	margin: auto;
+	margin-top: 415px;
+}
+
+.search-box {
+	background-color: inherit;
+	color: #BDD0C4;
+	border: none;
+	width: 100%;
+    margin: auto;
+	padding: 0;
+	font-family: Overpass, Open Sans;
+}
+
+.search-box:focus {
+	outline: none;
+}
