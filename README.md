@@ -42,7 +42,7 @@ Where every line starting with `#` corresponds to a different section (or
 
 For example, we can read the hierarchy as it follows: `nyaa https://nyaa.si/` is an *item* of *section* `# download`, where `nyaa` is the *label* for the `https://nyaa.si/` *url*.
 
-After modifying `links.oka`, you need to run `python okaeri.py theme`, where `theme` is the name of one of the css files available (if no theme is specified, it'll default to `dark`). `okaeri.py` will parse `links.oka` and create individual `Links` objects with appropriate attributes. With Mako, we'll generate our `homepage.html` using the file `template.html` as a template.
+After modifying `links.oka`, you need to run `make [theme]`, where `[theme]` is the name of one of the css files available (if no theme is specified, it'll default to `dark`). `okaeri.py` will parse `links.oka` and create individual `Links` objects with appropriate attributes. With Mako, we'll generate our `homepage.html` using the file `template.html` as a template.
 
 To finally see the results, open `homepage.html` in your favorite browser. If
 you want different looks, you can always modify `template.html` and the css files to fit your tastes.
