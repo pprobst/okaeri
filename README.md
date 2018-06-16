@@ -17,7 +17,7 @@
 
 You can use your own fonts, but I encourage you to install
 [Overpass](http://overpassfont.org/) and
-[jackeyfont](http://nonty.net/font/jackey_font/knsw_jackey_font.zip)
+[jackeyfont](http://nonty.net/font/jackey_font/knsw_jackey_font.zip).
 
 ### How to use
 First, you'd like to edit `links.oka` to fit your own needs. In this file, we'll have sections
