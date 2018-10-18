@@ -1,6 +1,6 @@
 # Okaeri
 
-*Okaeri (おかえり)* is a simple homepage generator written in Python. It's composed of 8 files:
+*Okaeri (おかえり)* is a simple homepage generator written in Python. It's composed of 9 files:
 
 * `okaeri.py`
 * `links.oka`
@@ -9,6 +9,7 @@
     - `gruvbox.css`
     - `light.css`
     - `pastel.css`
+    - `beatrice.css`
     - `homepage.html`
     - `template.html`
     
