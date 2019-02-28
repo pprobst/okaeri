@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-	font-family: jackeyfont;
+	font-family: 'M+ Type-1 (general-j) Light';
 	font-size: 80px;
 	color: #EDA6A8;
 	text-align: center;
@@ -85,6 +85,7 @@ span {
     margin: auto;
 	padding: 0;
 	font-family: Overpass, Open Sans;
+    text-align: center;
 }
 
 .search-box:focus {

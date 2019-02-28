@@ -1,6 +1,6 @@
 a {
 	text-decoration: none;
-	color: #4F729B;
+	color: #55758A;
 	font-family: Overpass, Open Sans;
 	font-size: 16px;
 	text-align: center;
@@ -11,12 +11,12 @@ a {
 }
 
 a:hover {
-	color: #C0605D;
-	background-color: #2F343F;
+	color: #9A758E;
+	background-color: #302E2F;
 }
 
 body {
-	background-color: #0D0F12;
+	background-color: #211F20;
 	text-align: center;
 }
 
