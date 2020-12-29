@@ -1,6 +1,6 @@
 a {
 	text-decoration: none;
-	color: #464045;
+	color: #43445E;
 	font-family: Overpass, Open Sans;
 	font-size: 16px;
 	text-align: center;
@@ -11,26 +11,27 @@ a {
 }
 
 a:hover {
-	color: #B25C33;
-	background-color: #211512;
+	color: #4A3946;
+	background-color: #171113;
 }
 
 body {
-	background-color: #1B110F;
+	#background-color: #151110;
+	background-color: #0F0B0D;
 	text-align: center;
 }
 
 h1 {
-	font-family: 'M+ Type-1 (general-j) Light';
+	font-family: jackeyfont;
 	font-size: 80px;
-	color: #8B786D;
+	color: #83818A;
 	text-align: center;
 	margin-bottom: 15px;
 }
 
 h7 {
 	font-size: 20px;
-	color: #8B786D;
+	color: #83818A;
 	font-family: Overpass, Open Sans;
 	border-bottom: 1px dotted #8B786D;
 }
@@ -69,7 +70,7 @@ span {
 }
 
 .search {
-	border-bottom: 1px solid #8B786D;
+	border-bottom: 1px solid #83818A;
 	padding: 5px;
 	width: 30%;
 	display: block;
@@ -79,13 +80,12 @@ span {
 
 .search-box {
 	background-color: inherit;
-	color: #8B786D;
+	color: #83818A;
 	border: none;
 	width: 100%;
 	margin: auto;
 	padding: 0;
 	font-family: Overpass, Open Sans;
-    text-align: center;
 }
 
 .search-box:focus {

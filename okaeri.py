@@ -2,10 +2,6 @@
 import sys
 from mako.template import Template
 
-class Link():
-    def __init__(self, section, label, url):
-        self.section, self.label, self.url = section, label, url
-
 def parse_file(filename="links.oka"):
     sections = {}
 
@@ -20,26 +16,24 @@ def parse_file(filename="links.oka"):
 
         return sections
 
-def create_Links(sections):
+def create_links(sections):
     links = []
-
     for key, val in sections.items():
         for s in val:
             s = s.split(' ')
-            links.append(Link(key, s[0], s[1]))
-
+            links.append((key, s[0], s[1]))
     return links
 
 
 sections = parse_file()
-zerudas = create_Links(sections)
+zerudas = create_links(sections)
 
 # Gets theme
 if len(sys.argv) == 2:
     theme = sys.argv[1]
 
 else:
-    theme = "dark" # default
+    theme = "train" # default
 
 tmpl = Template(filename='./html/template.html', input_encoding='utf-8', output_encoding='utf-8')
 

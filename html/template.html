@@ -18,8 +18,8 @@
                 <span>
                 <div class="content">
                     % for obj in zerudas:
-                    % if obj.section == sect:
-                   <a href="${obj.url}">${obj.label}</a>
+                    % if obj[0] == sect:
+                   <a href="${obj[2]}">${obj[1]}</a>
                     % endif
                     % endfor
                 </div>
@@ -27,7 +27,7 @@
             % endfor
         </div>
         <div class="search">
-            <form target="_blank" method="get" action="https://www.startpage.com/do/search">
+            <form target="_blank" method="get" action="https://www.qwant.com">
                 <input class="search-box" name="q" placeholder="。。。" type="text">
             </form>
         </div>
