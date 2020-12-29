@@ -1,2 +1,2 @@
-dark gruvbox light pastel beatrice kanon train: okaeri.py
+train dark gruvbox light pastel beatrice kanon: okaeri.py
 	python okaeri.py $@
